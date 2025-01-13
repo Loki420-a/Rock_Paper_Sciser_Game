@@ -1,6 +1,8 @@
 
 # Import Random 
-import random
+import random,art
+
+print(art.logo)
 
 condition = False
 
@@ -42,3 +44,4 @@ while not condition:
   user_mood = input("Take the input:")
   while user_mood != "YES":
      condition = True
+
